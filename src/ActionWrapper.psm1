@@ -7,7 +7,7 @@ function Invoke-Action {
         'issue_comment' { Initialize-PR }
         'schedule' { Initialize-Scheduled }
         'issues' { Initialize-Issue }
-        'push' { Initilaize-Push }
+        'push' { Initialize-Push }
         default { Write-Log 'Not supported event type' }
     }
 }
