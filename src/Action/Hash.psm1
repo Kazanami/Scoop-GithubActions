@@ -1,6 +1,6 @@
 Join-Path $PSScriptRoot '..\Helpers.psm1' | Import-Module
 
-function Initialize-Push {
+function Initialize-Hash {
     <#
     .SYNOPSIS
         Excavator alternative. Based on schedule execute of auto-pr binary.
@@ -21,4 +21,4 @@ function Initialize-Push {
     Write-Log 'Push finished'
 }
 
-Export-ModuleMember -Function Initialize-Push
+Export-ModuleMember -Function Initialize-Hash
