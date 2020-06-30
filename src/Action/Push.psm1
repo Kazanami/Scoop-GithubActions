@@ -21,4 +21,4 @@ function Initialize-Push {
     Write-Log 'Push finished'
 }
 
-Export-ModuleMember -Function Initialize-Scheduled
+Export-ModuleMember -Function Initialize-Push
